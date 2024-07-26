@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+  
+td {
+    width: 37.5px;
+    height: 37.5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.black {
+    background-color: #777;
+}
+  
+.white {
+    background-color: #fff;
+}
+
+h4{
+    text-align: center;
+}
+
