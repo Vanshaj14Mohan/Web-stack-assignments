@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <h2>Sign Up</h2>
+        <br>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter first name">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter last name">
+            <br><br>
+            <label for="lname">Date of Birth:</label>
+            <select id="date" name="date">
+                <option>Date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+                <select id="month" name="month">
+                    <option>Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sept">Sept</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select id="year" name="year">
+                    <option>Year</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                    </select>
+                    <!-- For gender now -->
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <!-- For country now -->
+                    <br>
+                    <label for id="country">Country:</label>
+                    <select id="country" name="country">
+                        <option>Select Country</option>
+                        <option value="India">India</option>
+                        <option value="Japan">Japan</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    <br>
+                    <!-- For email -->
+                     <br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your E-mail">
+                    <br><br>
+                    <!-- For Phone -->
+                    <label for="phone">Phone:</label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter your number">
+                    <br><br>
+                    <!-- For password -->
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <br><br>
+                    <label for="confirmpass">Confirm Password:</label>
+                    <input type="password" id="confirmpass" name="password">
+                    <br><br>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check" name="terms">
+                        <label for="check">I Agree to the Terms of use</label>
+                    </div>
+                    <br>
+                    <div id="buttons">
+                    <input type="submit" value="Submit" id="sub">
+                    <input type="button" value="Cancel" id="can">
+                    </div>
+        </form>
+    </div>
+</body>
+</html>
